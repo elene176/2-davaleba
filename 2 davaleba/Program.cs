@@ -74,6 +74,7 @@ using System.Threading.Tasks;
 
         Console.WriteLine($"\nExplicit Double from decimal: {explicitDoubleFromDecimal}");
         Console.WriteLine($"Explicit Float from decimal: {explicitFloatFromDecimal}");
+        Console.WriteLine("//===========================================");
         Console.ReadKey();
         // Initialize variables
         int x = 15;
@@ -89,6 +90,7 @@ using System.Threading.Tasks;
 
         // Display values after swap
         Console.WriteLine($"After:\nint x = {x};\nint b = {b};");
+        Console.WriteLine("//===========================================");
         Console.ReadKey();
 
         // Get user input for weight and height
